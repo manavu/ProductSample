@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.0" />
+    <EntityDeploy Include="..\Product.EdmxDesignHost\ProductModel.edmx" Link="ProductModel.edmx" />
+  </ItemGroup>
+
+</Project>
